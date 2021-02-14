@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0EEE7FF7-EC99-4EC7-92F2-A17D75798D8B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77BDB200-ABAC-471D-AB04-09DB80F9A40B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/Http/HttpRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "request(userHttpService:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F07F9A95-2965-4469-AA1B-474A9B0152B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F07F9A95-2965-4469-AA1B-474A9B0152B3 - 4bcdab9f3b651b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Array&lt;userListMVVM.UserModel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; RxSwift.Disposable in userListMVVM.UsersService.fetchUsers() -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Array&lt;userListMVVM.UserModel&gt;&gt;"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/Service/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "326">
+               </Location>
+               <Location
+                  uuid = "F07F9A95-2965-4469-AA1B-474A9B0152B3 - 811a626d61bde8c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;userListMVVM.UserModel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; RxSwift.Disposable in userListMVVM.UsersService.fetchUsers() -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Array&lt;userListMVVM.UserModel&gt;&gt;"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/Service/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "147">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B6A1441-E398-4C6E-BEC0-D97F9828874C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4571B8B8-F5B0-423F-AC43-DA83DE3DCAA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "output(input:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "114C795B-270E-4BA3-87AD-04F7980580F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "output(input:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10839712-5066-4F2F-B6E3-C8E704214592"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "output(input:state:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10839712-5066-4F2F-B6E3-C8E704214592 - 3207ec5b4d7fc16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static userListMVVM.UserListViewModel.(output in _BAE97CAE31F40EFAE83A816A06F9DBBC)(input: (searchText: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.String&gt;, ()), state: (users: RxRelay.BehaviorRelay&lt;Swift.Set&lt;userListMVVM.UserModel&gt;&gt;, ())) -&gt; (users: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.Array&lt;Differentiator.SectionModel&lt;Swift.Int, userListMVVM.UserViewPresentable&gt;&gt;&gt;, ())"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "753">
+               </Location>
+               <Location
+                  uuid = "10839712-5066-4F2F-B6E3-C8E704214592 - 6c85de650d0e26ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.Set&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Set&lt;userListMVVM.UserModel&gt; in static userListMVVM.UserListViewModel.(output in _BAE97CAE31F40EFAE83A816A06F9DBBC)(input: (searchText: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.String&gt;, ()), state: (users: RxRelay.BehaviorRelay&lt;Swift.Set&lt;userListMVVM.UserModel&gt;&gt;, ())) -&gt; (users: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.Array&lt;Differentiator.SectionModel&lt;Swift.Int, userListMVVM.UserViewPresentable&gt;&gt;&gt;, ())"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02D3A68A-1966-4229-BA3B-DA4705D41400"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "process()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5083F4C8-F937-495E-AF18-F54E0C373262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "process()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5083F4C8-F937-495E-AF18-F54E0C373262 - 4c9d798e6e62df73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "5083F4C8-F937-495E-AF18-F54E0C373262 - 231ff6a455a868fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Set&lt;userListMVVM.UserModel&gt; in userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF984DDC-D290-4929-AE31-26896F9A267D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96A7186E-FC90-4349-A847-33E06B615445"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "283ADF92-A890-4C37-A760-F6138475B636"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchUsers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4258A70B-4478-4679-97AC-96E7D8F3BF04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "uniqueElements(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "592464A7-6ADF-4EE7-8681-7B08DD7DE681"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "output(input:state:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "592464A7-6ADF-4EE7-8681-7B08DD7DE681 - 6c85de650d0e26ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.Set&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Set&lt;userListMVVM.UserModel&gt; in static userListMVVM.UserListViewModel.(output in _BAE97CAE31F40EFAE83A816A06F9DBBC)(input: (searchText: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.String&gt;, ()), state: (users: RxRelay.BehaviorRelay&lt;Swift.Set&lt;userListMVVM.UserModel&gt;&gt;, ())) -&gt; (users: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.Array&lt;Differentiator.SectionModel&lt;Swift.Int, userListMVVM.UserViewPresentable&gt;&gt;&gt;, ())"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "592464A7-6ADF-4EE7-8681-7B08DD7DE681 - 8fe527d66ce34f9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (userListMVVM.UserModel) -&gt; Swift.Bool in closure #1 (Swift.String, Swift.Set&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Set&lt;userListMVVM.UserModel&gt; in static userListMVVM.UserListViewModel.(output in _BAE97CAE31F40EFAE83A816A06F9DBBC)(input: (searchText: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.String&gt;, ()), state: (users: RxRelay.BehaviorRelay&lt;Swift.Set&lt;userListMVVM.UserModel&gt;&gt;, ())) -&gt; (users: RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.Array&lt;Differentiator.SectionModel&lt;Swift.Int, userListMVVM.UserViewPresentable&gt;&gt;&gt;, ())"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B83650FF-AD2B-4BD4-AFC3-5C78004E491C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/View/UserList/Cell/UserCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "configure(userViewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE7F3DE4-D8EA-434C-9A5B-8A0CFED93BE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/View/UserList/Cell/UserCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "configure(userViewModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1E0F2E4-A5F7-45E4-9E80-206738A2D7EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/UsersService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "createUser(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1E0F2E4-A5F7-45E4-9E80-206738A2D7EE - 40c705592eac1725"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; RxSwift.Disposable in userListMVVM.UsersService.createUser(with: userListMVVM.UserModel) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Bool&gt;"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/Service/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "905">
+               </Location>
+               <Location
+                  uuid = "E1E0F2E4-A5F7-45E4-9E80-206738A2D7EE - 5acaf0c5d988a4f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; ()) -&gt; RxSwift.Disposable in userListMVVM.UsersService.createUser(with: userListMVVM.UserModel) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, Swift.Bool&gt;"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/Service/UsersService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4135B78A-E533-4939-BFA4-4CF0C4D0B64D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/Service/Http/UsersHttpRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "body()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4135B78A-E533-4939-BFA4-4CF0C4D0B64D - 67825fc6da9bc1aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UsersHttpRouter.body() throws -&gt; Swift.Optional&lt;Foundation.Data&gt;"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/Service/Http/UsersHttpRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "4135B78A-E533-4939-BFA4-4CF0C4D0B64D - 67825fc6da9bc1aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UsersHttpRouter.body() throws -&gt; Swift.Optional&lt;Foundation.Data&gt;"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/Service/Http/UsersHttpRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "706">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00AC289F-75D3-40D5-B0E6-9D0C987C1610"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "init(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D145258-AFFB-4D94-A5FF-4ABADBB0F218"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "process()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39B42E52-CB6A-43CF-8AF8-D59D05EAB102"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "process()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "39B42E52-CB6A-43CF-8AF8-D59D05EAB102 - 4c9d798e6e62d353"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "3883">
+               </Location>
+               <Location
+                  uuid = "39B42E52-CB6A-43CF-8AF8-D59D05EAB102 - 7395d77db70f434a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #8 (Swift.Optional&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Bool in userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4437676-6A3F-462D-9164-43F10078C1F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "process()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4437676-6A3F-462D-9164-43F10078C1F4 - 4c9d798e6e62d332"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "4068">
+               </Location>
+               <Location
+                  uuid = "A4437676-6A3F-462D-9164-43F10078C1F4 - fc2a2eb9c7025266"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #9 (Swift.Optional&lt;userListMVVM.UserModel&gt;) -&gt; userListMVVM.UserModel in userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4A23F29-BD9E-4E64-BCFC-F1694BB816D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "process()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4A23F29-BD9E-4E64-BCFC-F1694BB816D6 - 4c9d798e6e62d31d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "4239">
+               </Location>
+               <Location
+                  uuid = "D4A23F29-BD9E-4E64-BCFC-F1694BB816D6 - 4c9d798e6e62d31d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "4452">
+               </Location>
+               <Location
+                  uuid = "D4A23F29-BD9E-4E64-BCFC-F1694BB816D6 - 69ac653516f11b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #10 (userListMVVM.UserModel) -&gt; () in userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E34F453F-5043-411D-B547-D26C608844EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/SuccessViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "process(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4374C4C5-AA3F-46CD-B316-F86F4C6ED7BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/SuccessViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "process(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBE208C8-F858-4E24-85A7-A174C1BFB54B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/SuccessViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "process(input:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CBE208C8-F858-4E24-85A7-A174C1BFB54B - abaabf55cfc6876a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.SuccessViewModel.process(input: (dismiss: RxCocoa.ControlEvent&lt;__C.UITapGestureRecognizer&gt;, ())) -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/SuccessViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "CBE208C8-F858-4E24-85A7-A174C1BFB54B - abaabf55cfc6876a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "userListMVVM.SuccessViewModel.process(input: (dismiss: RxCocoa.ControlEvent&lt;__C.UITapGestureRecognizer&gt;, ())) -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/SuccessViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "213">
+               </Location>
+               <Location
+                  uuid = "CBE208C8-F858-4E24-85A7-A174C1BFB54B - e858c13a80a0e2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITapGestureRecognizer) -&gt; () in userListMVVM.SuccessViewModel.process(input: (dismiss: RxCocoa.ControlEvent&lt;__C.UITapGestureRecognizer&gt;, ())) -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/SuccessViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "451EEA5B-AA70-4EFD-91DE-EEBF0F41ED15"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "userListMVVM/ViewModel/UserListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "process()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "451EEA5B-AA70-4EFD-91DE-EEBF0F41ED15 - b8b8206f3049ac09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #8 (Foundation.IndexPath, Swift.Set&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Optional&lt;userListMVVM.UserModel&gt; in userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "301">
+               </Location>
+               <Location
+                  uuid = "451EEA5B-AA70-4EFD-91DE-EEBF0F41ED15 - 5419055b69003b2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (userListMVVM.UserModel) -&gt; Swift.Bool in closure #8 (Foundation.IndexPath, Swift.Set&lt;userListMVVM.UserModel&gt;) -&gt; Swift.Optional&lt;userListMVVM.UserModel&gt; in userListMVVM.UserListViewModel.(process in _BAE97CAE31F40EFAE83A816A06F9DBBC)() -&gt; ()"
+                  moduleName = "userListMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hasanoztunc/Documents/xcodeProjects/userListMVVM/userListMVVM/ViewModel/UserListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "147">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

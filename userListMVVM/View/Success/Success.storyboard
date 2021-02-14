@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Success View Controller-->
+        <scene sceneID="ZP3-kB-8dv">
+            <objects>
+                <viewController storyboardIdentifier="SuccessViewController" id="QIa-jV-YrD" customClass="SuccessViewController" customModule="userListMVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bn5-lH-pwq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4uu-P5-mUh">
+                                <rect key="frame" x="25" y="418" width="364" height="70"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="dVV-FG-pbq">
+                                        <rect key="frame" x="121" y="24" width="122" height="22.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kayıt Başarılı" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjj-Kh-uv8">
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="22.5"/>
+                                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-success" translatesAutoresizingMaskIntoConstraints="NO" id="fEG-hH-eo6">
+                                                <rect key="frame" x="99.5" y="0.0" width="22.5" height="22.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.24313725490196078" green="0.78431372549019607" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="dVV-FG-pbq" firstAttribute="centerX" secondItem="4uu-P5-mUh" secondAttribute="centerX" id="hbC-RY-arH"/>
+                                    <constraint firstItem="dVV-FG-pbq" firstAttribute="centerY" secondItem="4uu-P5-mUh" secondAttribute="centerY" id="sJy-xC-TuQ"/>
+                                    <constraint firstAttribute="height" constant="70" id="vtL-bD-AZi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ksx-lQ-eH3"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ksx-lQ-eH3" firstAttribute="trailing" secondItem="4uu-P5-mUh" secondAttribute="trailing" constant="25" id="JQW-sA-wsH"/>
+                            <constraint firstItem="4uu-P5-mUh" firstAttribute="centerY" secondItem="ksx-lQ-eH3" secondAttribute="centerY" id="bLZ-Em-aBY"/>
+                            <constraint firstItem="4uu-P5-mUh" firstAttribute="centerX" secondItem="ksx-lQ-eH3" secondAttribute="centerX" id="e0q-4P-Dqe"/>
+                            <constraint firstItem="4uu-P5-mUh" firstAttribute="leading" secondItem="ksx-lQ-eH3" secondAttribute="leading" constant="25" id="e7Z-dB-7T0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6jj-aY-hLL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-397.10144927536237" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic-success" width="22.5" height="22.5"/>
+    </resources>
+</document>
